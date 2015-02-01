@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaaaa"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tugasakhir.tugasakhir1.Gemini" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/agemini" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ZODIAK GEMINI (21 Mei – 20 Juni)\n\n
+Gemini merupakan zodiak ke-3. Zodiak ini digambarkan dengan sepasang anak kembar. Lambang Zodiak tersebut memiliki banyak arti. Menurut Astrologi Mesir, Gemini dilambangkan dengan sepasang ayam jago kembar. Kekembaran ini, menurut metologi Yunani, dihubungkan dengan si kembar Romulus dan Remus, pendiri kota Roma.\n\n
+Menurut cerita, mereka yang berbintang Gemini berada di bawah naungan dua dewa, yaitu castor dan Pollux. Atau bisa pula disebut Alpha dan beta Geminorum. nah, dari kata Geminorum inilah muncul zodiak gemini.
+               "
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

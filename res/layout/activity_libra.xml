@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaaaa"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tugasakhir.tugasakhir1.Libra" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/alibra" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ZODIAK LIBRA (21 September-20 Oktober)\n\n
+Libra (timbangan) adalah suatu rasi bintang zodiak. Rasi ini adalah suatu rasi bintang yang redup dan tidak memiliki bintang dengan magnitudo pertama, berada di antara Virgo di sebelah barat dan Scorpio di sebelah timur. Dalam Zodiak, individu yang memiliki bintang Libra, terlahir pada 23 September hingga 22 Oktober, ketika matahari ada pada bintang Libra.\n\n
+Timbangan, alat yang digunakan untuk mengukur berat suatu benda. Dipercaya bahwa simbol ini merupakan lambang dari keseimbangan, keharmonisan dan keadilan. Mereka adalah sosok yang cinta damai dan hidup dalam lingkungan yang stabil.\n\n
+Satu satunya lambang dalam dua belas zodiac barat yang bukan manusia ataupun hewan. Lambang timbangan dalam zodiak Libra artinya keadilan dan keseimbangan. Mereka yang lahir dalam pengaruh zodiac yang satu ini mempunyai rasa atau unsur keadilan, tidak bisa toleransi akan ketidakadilan, melakukan sesuatu berdasarkan peraturan dan mencintai kebersamaan. Gara gara sifat inilah yang membuat orang Libra menjadi salah satu orang yang paling berkemanusiaan dibandingkan dengan orang dengan zodiac yang lain.\n\n
+Mereka simpatik, banyak orang yang kagum pada sang Libra dan orang Libra tidak akan diterlantarkan karena mereka adalah teman yang baik dan perhatian. Libra juga adalah salah satu zodiac yang paling suka bergaul. Libra juga pecinta damai dan biasanya akan menghindar dari berbagai konflik. Mereka lebih cenderung mendengarkan apa yang orang mau ceritakan dari pada menyelidiki apa yang sedang terjadi.
+                "
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

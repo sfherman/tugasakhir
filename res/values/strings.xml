@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TugasAkhir1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_utama">Utama</string>
+    <string name="title_activity_cancer">Cancer</string>
+    <string name="title_activity_aquarius">Aquarius</string>
+    <string name="title_activity_aries">Aries</string>
+    <string name="title_activity_capricorn">Capricorn</string>
+    <string name="title_activity_gemini">Gemini</string>
+    <string name="title_activity_leo">Leo</string>
+    <string name="title_activity_libra">Libra</string>
+    <string name="title_activity_pisces">Pisces</string>
+    <string name="title_activity_sagitarius">Sagitarius</string>
+    <string name="title_activity_scorpio">Scorpio</string>
+    <string name="title_activity_taurus">Taurus</string>
+    <string name="title_activity_virgo">Virgo</string>
+
+</resources>

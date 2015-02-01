@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tugasakhir.tugasakhir1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Utama"
+            android:label="@string/title_activity_utama" >
+        </activity>
+        <activity
+            android:name=".Cancer"
+            android:label="@string/title_activity_cancer" >
+        </activity>
+        <activity
+            android:name=".Aquarius"
+            android:label="@string/title_activity_aquarius" >
+        </activity>
+        <activity
+            android:name=".Aries"
+            android:label="@string/title_activity_aries" >
+        </activity>
+        <activity
+            android:name=".Capricorn"
+            android:label="@string/title_activity_capricorn" >
+        </activity>
+        <activity
+            android:name=".Gemini"
+            android:label="@string/title_activity_gemini" >
+        </activity>
+        <activity
+            android:name=".Leo"
+            android:label="@string/title_activity_leo" >
+        </activity>
+        <activity
+            android:name=".Libra"
+            android:label="@string/title_activity_libra" >
+        </activity>
+        <activity
+            android:name=".Pisces"
+            android:label="@string/title_activity_pisces" >
+        </activity>
+        <activity
+            android:name=".Sagitarius"
+            android:label="@string/title_activity_sagitarius" >
+        </activity>
+        <activity
+            android:name=".Scorpio"
+            android:label="@string/title_activity_scorpio" >
+        </activity>
+        <activity
+            android:name=".Taurus"
+            android:label="@string/title_activity_taurus" >
+        </activity>
+        <activity
+            android:name=".Virgo"
+            android:label="@string/title_activity_virgo" >
+        </activity>
+    </application>
+
+</manifest>

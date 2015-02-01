@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaaaa"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tugasakhir.tugasakhir1.Capricorn" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/caapricorn" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ZODIAK CAPRICORN (21 Desember-20 Januari)\n\n
+Capricornus (Kambing Gunung) adalah salah satu dari rasi bintang zodiak. Biasanya dikenal sebagai Capricorn, khususnya dalam astrologi. Rasi ini melambangkan kambing bertanduk, sekalipun kadang banyak yang menyebutnya kambing laut. Capricornus adalah salah satu dari 88 rasi bintang modern, dan juga satu dari 48 rasi bintang yang didaftar oleh Ptolemy. Dalam batas rasi bintang modern, rasi ini dikelilingi oleh Aquila, Sagittarius, Microscopium, Piscis Austrinus dan Aquarius. Dalam Zodiak, individu yang memiliki bintang Capricorn, terlahir pada 22 Desember hingga 19 januari, ketika Matahari ada pada bintang Capricorn. Capricorn berada di antara Sagitarius di sebelah barat dan Aquarius di sebelah timur.\n\n
+Simbol kambing jantan ini melambangkan keras kepala yang luar biasa, mereka cenderung egois dan nyaman hidup sendiri. Mereka adalah sosok yang tertutup dan jarang berbagi perasaan dengan orang lain. Mereka memiliki gairah dan ambisi untuk selalu mencapai posisi puncak dan mendapat yang terbaik.\n\n
+Capricorn adalah salah satu bintang yang paling bertekad dan paling berambisi besar di dalam zodiac barat. Mereka diam diam mempunyai kemauan dan keinginan yang kuat dan dipenuhi dengan rasa percaya diri yang hebat. Para astrologer percaya bahwa rata rata orang Capricorn mewujudkan impian dan cita citanya dengan secara perlahan namun pasti. Orang Capricorn juga dikenal praktis, penuh strategi dalam mengerjakan sesuatu dan tidak pernah bertergantungan dengan siapapun juga."
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaaaa"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tugasakhir.tugasakhir1.Virgo" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/avirgo" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ZODIAK VIRGO (21 Agustus – 20 September)\n\n
+Virgo (perawan) adalah suatu rasi bintang dari zodiak . Berada di antara Leo di sebelah barat dan Libra di sebelah timur, rasi ini adalah salah satu dari rasi bintang terbesar di langit. Virgo bisa ditemukan dengan mudah melalui bintang α-nya, Spica. Dalam Zodiak, individu yang memiliki bintang Virgo, terlahir pada 23 Agustus hingga 22 September, ketika matahari ada pada bintang Virgo.\n\n
+Virgo dilambangkan oleh wanita perawan, di mana karakteristik dasarnya adalah sosok pemalu, lembut, bijaksana, dan alami. Mereka memiliki kecenderungan lebih suka hidup sendiri.\n\n
+Orang yang tergolong dalam bintang Virgo adalah orang yang cerdas, cepat dalam berpikir dan sangat berhati hati. Dengan planet Mercury yang mempengaruhi zodiac ini orang Virgo umumnya sopan, berpenampilan menarik, sopan santun dan bawaannya tenang. Orang Virgo sangat mengenal dan menghargai nilai bakat dalam dirinya. Mereka juga dapat dipercaya dan sering dimanjakan oleh keluarganya. Berhasrat kuat dan konvensional, orang Virgo di dalam penampilannya yang tenang dan santai terdapat perasaan emosional yang dalam.\n\n
+Walaupun tidak suka memamerkan kelebihan mereka orang Virgo amat cerdas dan mempunyai daya imajinasi yang bagus. Dengan tanah sebagai unsur elemen mereka membuat orang Virgo bersifat konservatif dan penuh waspada. Mereka bukan orang yang pelit namun juga bukan tipe yang suka boros dan suka menghamburkan uang. Selain suka bermain orang Virgo juga tipe pekerja keras, dapat diandalkan untuk bertanggung jawap atas sesuatu yang mereka lakukan dan sering kali memberi bantuan kepada teman yang sedang memerlukan. Kesetiaan juga salah satu bagian dari karakter orang Virgo dan jika dikhianati atau tertipu mereka tidak akan melupakannya. Biasanya orang Virgo cenderung bersifat kedewasaan lebih cepat dibandingkan yang lain. 
+               "
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

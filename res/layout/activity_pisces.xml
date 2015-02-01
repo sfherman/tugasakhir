@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaaaa"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tugasakhir.tugasakhir1.Pisces" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/apisces" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ZODIAK PISCES (19 Februari-20 Maret)\n\n
+Pisces (Ikan) adalah suatu zodiak rasi bintang berada antara Aquarius di sebelah barat dan Aries di sebelah timur. Pisces merupakan lambang astrologi ke-12 dalam sebuah zodiak, yang berasal dari Konstelasi Pisces. Dalam astrologi, Pisces identik dengan lambang feminin atau negatif. Juga merupakan perlambangan air. Dalam zodiac dilambangkan dengan sepasang ikan yang berenang dengan arah berlawanan. Secara tradisional, Pisces bertahta di Planet Jupiter, tapi sejak penemuannya, Neptunus merupakan tahta modern dari lambang ini. Dalam Zodiak, individu yang memiliki bintang Pisces, terlahir pada 19 Februari hingga 20 Maret, ketika Matahari ada pada bintang Pisces.\n\n
+Pisces disimbolkan oleh dua ikan yang berenang berlainan arah. Simbol tersebut melambangkan karakter Pisces yang selalu bimbang dan tak mudah mengambil suatu keputusan. Namun mereka adalah orang yang sangat terbuka dan mudah menerima masukan atau kritik dari luar.\n\n
+Pisces adalah lambang negatif yang berelemen air. Pisces dipengaruhi atau dikuasai oleh planet Jupiter, dan orang yang lahir pada bulan ini mereka imajinatif, ramah sikapnya, banyak disukai orang dan sangat sensitif. Orang Pisces jauh lebih sensitif dibandingkan dengan bintang bintang zodiac lainnya. Bahkan para astrologer dunia melihat Pisces sebagai bintang yang paling pemalu dan gugup.\n\n
+Orang Pisces mempunyai kepribadian yang menarik, mereka baik hati, simpatik, penuh naluri dan gampang terpengaruh oleh teman, situasi atau keadaan di sekitarnya. Maka dari itu penting bagi warga Pisces untuk berhati-hati untuk memilih tempat tinggal atau teman teman di sekelilingnya. Karena mereka mempunyai karakter yang cukup menarik membuat orang orang Pisces cukup terkenal di lingkungan sosial mereka. Orang Pisces juga mempunyai daya tarik dan bukan tipe orang yang suka mencari ketenaran.
+"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

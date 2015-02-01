@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaaaa"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tugasakhir.tugasakhir1.Leo" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/aleo" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ZODIAK LEO (21 Juli – 20 Agustus)\n\n
+Leo (Singa) adalah suatu rasi bintang zodiak. Leo berada di antara Cancer di sebelah barat dan Virgo di sebelah timur. Dalam Zodiak, individu yang memiliki bintang Leo, terlahir pada 23 Juli hingga 22 Agustus, ketika matahari ada pada bintang Leo.\n\n
+Singa disebut-sebut sebagai raja hutan yang ditakdirkan menjadi pemimpin, demikian pula disimbolkan, karakter mereka yang bernaung di bawah zodiak Leo suka memerintah dan tak suka dikalahkan. Keberanian menjadi salah satu karakter dirinya, kekuatan dan kekuasaan selalu ada di dalam benak Leo.\n\n
+Bintang yang satu ini dikuasai oleh matahari dan orang orang yang tergolong dalam bintang zodiac Leo ini dinamis, percaya diri, kuat, dan menjalani hidup semaksimal mungkin. Orang orang Leo adalah salah satu pemimpin di dalam lingkaran dua belas zodiac astrology barat. Mereka yang berbintang Leo umumnya berterus terang dan apa adanya. Walaupun orang leo kadang suka kelihatan sedih tetapi mereka adalah orang yang optimis dan tidak suka akan kegagalan. Reputasi dan status adalah salah satu prioritas paling depan untuk sang Leo.\n\n
+Kelakuan atau tindakan sang Leo sering kali menginspirasi atau memotivasi orang orang yang berada di sekitarnya. Mereka gemar akan ketegangan dan berhadapan dengan situasi yang baru. Orang Leo juga dikenal murah hati tapi juga kadang suka memamerkan kehebatan mereka. Orang Leo juga cenderung suka melakukan sesuatu tanpa perencanaan yang matang tetapi dikarenakan mereka mempunyai semangat yang besar mereka dapat menuntaskan misi mereka dengan sukses kecuali jika dengan tiba tiba dikuasai oleh kejenuhan maka sering kali mereka melepaskan suatu misi yang belom kelar dan pindah atau melakukan misi yang baru.
+"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

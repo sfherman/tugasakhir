@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaaaa"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kelompok.tugasakhir.Utama" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:adjustViewBounds="true"
+        android:onClick="aquarius"
+        android:scaleType="fitStart"
+        android:src="@drawable/aquarius" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_below="@+id/imageView6"
+        android:layout_marginTop="25dp"
+        android:adjustViewBounds="true"
+        android:onClick="libra"
+        android:scaleType="fitXY"
+        android:src="@drawable/libra" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="25dp"
+        android:adjustViewBounds="true"
+        android:onClick="capricorn"
+        android:scaleType="fitXY"
+        android:src="@drawable/capicorn" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignTop="@+id/imageView4"
+        android:adjustViewBounds="true"
+        android:onClick="gemini"
+        android:scaleType="fitXY"
+        android:src="@drawable/gemini" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/imageView7"
+        android:layout_below="@+id/imageView7"
+        android:layout_marginTop="25dp"
+        android:adjustViewBounds="true"
+        android:onClick="scorpio"
+        android:scaleType="fitXY"
+        android:src="@drawable/scorpio" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/imageView8"
+        android:layout_alignTop="@+id/imageView10"
+        android:adjustViewBounds="true"
+        android:onClick="taurus"
+        android:scaleType="fitXY"
+        android:src="@drawable/taurus" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView5"
+        android:adjustViewBounds="true"
+        android:onClick="leo"
+        android:scaleType="fitXY"
+        android:src="@drawable/leo" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/imageView10"
+        android:layout_alignLeft="@+id/imageView6"
+        android:adjustViewBounds="true"
+        android:onClick="sagitarius"
+        android:scaleType="fitXY"
+        android:src="@drawable/sagitarius" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_alignTop="@+id/imageView11"
+        android:adjustViewBounds="true"
+        android:onClick="virgo"
+        android:scaleType="fitXY"
+        android:src="@drawable/virgo" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="1dp"
+        android:adjustViewBounds="true"
+        android:onClick="pisces"
+        android:scaleType="fitXY"
+        android:src="@drawable/pisces" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/imageView10"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:onClick="aries"
+        android:scaleType="fitXY"
+        android:src="@drawable/aries" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_marginLeft="1dp"
+        android:adjustViewBounds="true"
+        android:onClick="cancer"
+        android:scaleType="fitXY"
+        android:src="@drawable/cancer" />
+
+</RelativeLayout>

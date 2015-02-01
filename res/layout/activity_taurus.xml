@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaaaa"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tugasakhir.tugasakhir1.Taurus" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/ataurus" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ZODIAK TAURUS (21 April-20 Mei)\n\n
+Taurus adalah salah satu dari rasi bintang zodiak , Taurus dilambangkan dengan kerbau. Rasi ini terletak antara Aries di sebelah barat dan Gemini di sebelah timur; di sebelah utara terdapat Perseus dan Auriga, di sebelah barat daya terdapat Orion, dan di sebelah tenggara terdapat Eridanus dan Cetus.\n\n
+Taurus Bersimbol Sapi Bertanduk. Simbol tersebut mewakili kekuatan, kekerasan hati, kejantanan dan kekuasaan. Pada umumnya mereka hidup sendiri, namun terkadang berkelompok. Mereka adalah sosok yang cinta damai, namun bisa seketika marah jika ada yang memancing emosinya.\n\n
+Taurus ada di urutan kedua di perbintangan astrology barat dan dikuasai olehplanet Venus, mereka yang lahir dalam lambang ini adalah orang yang paling rajin dan sekaligus yang paling keras kepala. Kalau sudah memutuskan sesuatu keputusannya tidak bisa diganggu gugat atau dirubah sedikitpun oleh orang lain bahkan keluarganya sekaliguspun.\n\n
+Mereka amat kuat pendiriannya. Namun orang Taurus cukup berani dan tidak mudah menyerah untuk mewujudkan keputusannya tersebut. Mereka juga adalah orang yang berani bertanggung-jawab atas perbuatannya dan bisa dipercaya. Dalam melakukan sesuatu umumnya orang Taurus bukan tipe yang asal atau sembarangan. Mereka adalah orang yang taat, menghargai tradisi dan melakukan segala sesuatu berdasarkan peraturan.
+                "
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

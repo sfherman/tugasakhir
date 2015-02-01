@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaaaa"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tugasakhir.tugasakhir1.Sagitarius" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/asagittarius" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ZODIAK SAGITARIUS (21 November – 20 Desember)\n\n
+Sagittarius (Pemanah) adalah suatu rasi bintang dari zodiak. Sagittarius berada di antara Scorpius di sebelah barat dan Capricornus di sebelah timur. Dalam Zodiak, individu yang memiliki bintang Sagittarius, terlahir pada 22 November hingga 21 Desember, ketika matahari ada pada bintang Sagittarius.\n\n
+Archer yang ada di dalam simbol Sagittarius ini adalah sosok Centaur, makhluk kuno setengah manusia dan berbadan kuda. Menunjukkan bahwa mereka adalah makhluk emosional yang penuh gairah, berani, bijaksana, dan selalu bergerak maju.\n\n
+Sagittarius adalah lambang mandiri, penjelajah dunia dan jiwa kebebasan. Sagittarius dikuasai oleh planet Jupiter yang disamakan dengan arti keberuntungan. Sagittarius pada umumnya adalah orang yang beruntung, para astrologer percaya bahwa sekali Sagittarius menggunakan panahnya mereka akan mendapatkan sesuatu yang mereka targetkan. Orang Sagittarius memberi aura yang positif, ceriah, dan sifat yang optimis.\n\n
+
+Mereka pecinta kebebasan dan lebih memilih apa yang akan mereka lakukan keesokan hari dari pada memikirkan kesalahan yang mereka perbuat hari ini. Mampu melakukan berbagai tugas dalam waktu yang bersamaan orang Sagittarius juga tipe yang selalu bergerak dan pecinta olah raga. Mereka sangat aktif dan selalu menjelajah ke berbagai aktivitas, pengalaman dan hobi. Kemungkinan sekali orang yang lahir pada bintang Sagittariusmendapatkan kelelahan yang berlebihan secara fisik maupun mental dikarenakan sifatnya yang tidak bisa diam dan mudah bosan. 
+"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

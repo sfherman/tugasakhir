@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaaaa"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tugasakhir.tugasakhir1.Aquarius" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/aaquarius" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ZODIAK AQUARIUS (21 Januari-18 Februari)\n\n\n
+Aquarius ( pembawa air), adalah salah satu dari 88 rasi bintang zodiak di langit. Dalam Zodiak, individu yang memiliki bintang Aquarius, terlahir pada 20 Januari hingga 18 Februari, ketika matahari ada pada bintang Aquarius. Aquarius berada di antara Capricorn di sebelah barat dan Pisces di sebelah timur.\n\n
+Simbol pembawa air adalah sosok yang sangat alami dan sangat spiritualis. Mereka adalah sosok dewasa yang cinta damai. Orientasi mereka adalah kemajuan dan perkembangan, untuk itu mereka adalah orang-orang yang gemar belajar dan sangat cerdas.\n\n
+Bintang Aquarius dikuasai atau dipengaruhi oleh planet Uranus dan orang yang tergolong dalam bintang ini pada umumnya banyak akal, orang yang mau berkembang atau maju, dan tidak konvensional. Orang Aquarius cenderung susah untuk dimengerti sifat sifatnya yang terkadang aneh. Suasana hati atau moodnya orang Aquarius sering berubah dan tidak tetap. Dalam seketika dia bisa kelihatan ekspresif, banyak semangat dan cerewet dan dalam sekejap mereka bisa berubah menjadi pendiam, murung dan tidak ada semangat.\n\n
+Mereka eksentrik, jangan berharap bahwa orang Aquarius akan mengikuti orang banyak, mereka lebih suka menjadi beda dan ingin menjadi lain dari pada yang lain. Orang Aquarius juga merupakan orang yang paling ramah yang suka bergaul dan bersahabat, mereka sangat menonjol dalam lingkungan sosialnya dan gemar berkumpul atau datang ke berbagai acara perkumpulan. "
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

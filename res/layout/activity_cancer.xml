@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaaaa"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tugasakhir.tugasakhir1.Cancer" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/acancer" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ZODIAK CANCER (21 Juni – 20 Juli)\n\n
+Dalam astronomi dan astrologi, Cancer (kepiting), adalah salah satu dari 12 rasi bintang zodiak. Cancer berukuran kecil dan redup, dan banyak orang menganggap rasi ini tidak menyerupai kepiting. Rasi ini berada di antara Gemini di sebelah barat dan Leo di sebelah timur, Lynx di sebelah utara serta Canis Minor dan Hydra di sebelah selatan. Dalam Zodiak, individu yang memiliki bintang Cancer, terlahir pada 22 Juni hingga 22 Juli, ketika matahari ada pada bintang Cancer.\n\n
+Kepiting adalah binatang yang berjalan miring, demikian simbol ini melambangkan zodiak Cancer yang memiliki kecenderungan sikap yang sangat berbeda dan unik. Mereka selalu menyelesaikan masalah dengan caranya sendiri. Tergolong orang-orang yang melindungi diri sendiri, egois, sensitif dan tertutup. Mereka tak begitu suka akan perubahan, dan merasa nyaman dengan lingkungan yang sudah ada sejak lama.\n\n
+Cancer adalah lambang perlindungan, yang lahir dalam bintang ini mereka mempunyai sifat melindungi dan emosional yang dalam, orang Cancer meraih keinginannya secara konstan dan tidak putus putus. Orang Cancer juga dikenal cerdas dan salah satu zodiac barat yang paling susah ditebak. Bintang Cancer dikuasai oleh bulan dan elemennya adalah air, jadi para astrologer di dunia percaya bahwa mood mereka yang selalu berganti bisa dibandingkan dengan air laut yang pasang surut.\n\n
+Maka dari itu orang Cancer harus diberikan perhatian yang lebih dikarenakan oleh moodnya yang tidak tetap tersebut. Umumnya orang Cancer mempunyai semangat yang tinggi dan ide ide cemerlang. Mereka baik hati kepada sesama tetapi tidak mudah menerima orang sebagai teman, mereka sangat berhati-hati.\n\n
+Orang Cancer juga pecinta keluarga dan orang Cancer paling cocok kalau dijadikan sebagai orang tua dikarenakan orang Cancer sangat setia, melindungi (bahkan cenderung terlalu melindungi) dan menghargai keluarga dan anaknya sekaligus berperan sebagai pengasuh yang aktif dalam masa pertumbuhan anak anaknya.
+"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
